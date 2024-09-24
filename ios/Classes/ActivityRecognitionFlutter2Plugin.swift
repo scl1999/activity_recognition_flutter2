@@ -2,13 +2,13 @@ import Flutter
 import UIKit
 import CoreMotion
 
-public class SwiftActivityRecognitionFlutter2Plugin: NSObject, FlutterPlugin {
+public class ActivityRecognitionFlutter2Plugin: NSObject, FlutterPlugin {
   private let motionActivityManager = CMMotionActivityManager()
   private var activityRecognitionChannel: FlutterMethodChannel?
   
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "activity_recognition_flutter2", binaryMessenger: registrar.messenger())
-    let instance = SwiftActivityRecognitionFlutter2Plugin()
+    let instance = ActivityRecognitionFlutter2Plugin()
     instance.activityRecognitionChannel = channel
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
