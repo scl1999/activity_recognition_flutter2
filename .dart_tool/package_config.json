@@ -167,10 +167,10 @@
       "name": "activity_recognition_flutter2",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "2.15"
     }
   ],
-  "generated": "2024-09-24T12:55:24.559607Z",
+  "generated": "2024-09-24T13:17:11.561311Z",
   "generator": "pub",
   "generatorVersion": "3.4.4",
   "flutterRoot": "file:///Users/samuellinfield/flutter",
