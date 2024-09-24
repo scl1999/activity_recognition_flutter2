@@ -1,7 +1,7 @@
 name: activity_recognition_flutter2
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/scl1999/activity_recognition_flutter2
 
 environment:
   sdk: '>=3.4.4 <4.0.0'
